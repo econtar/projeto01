@@ -1,9 +1,52 @@
-#form {
-    width: 100vw;
+:root{
+    --first-color: rgba(46, 148, 138, 1);
+    --second-color: rgba(255, 64, 129, 1);
+    --third-color: rgba(85, 85, 85, 1);
+}
 
+* {
+    margin: 0;
+    top: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: var(--first-color);
+    height: 117px;
+    width: 100%;
+    margin-top: ;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    position: fixed;
+}
+
+.header-nav a{
+    color: rgba(253, 253, 253, 1);
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 103px;
+    width: 95x;
+    height: 23px;
+    line-height: 22.98px;
+
+}
+
+.header-img img {
+    width: 164px;
+}
+
+#form {
+   
+
 }
 
 .form-contact {
@@ -14,9 +57,19 @@
 }
 
 .form-contact h2 {
-    font-size: var(--font-size-large);
+  /*  font-size: var(--font-size-large);
     font-weight: 700;
-    color: var(--secondary-color);
+    color: var(--secondary-color);*/
+    width: 154px;
+    height: 46px;
+
+
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
 }
 
 .form-contact input {
@@ -60,6 +113,8 @@
     background-color: var(--secondary-back-color);
     transition: 0.5s;
 }
+
+
 
 /* ------- */
 

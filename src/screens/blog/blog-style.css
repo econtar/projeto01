@@ -1,5 +1,52 @@
 /* PÁGINA BLOG */
 
+:root{
+    --first-color: rgba(46, 148, 138, 1);
+    --second-color: rgba(255, 64, 129, 1);
+    --third-color: rgba(85, 85, 85, 1);
+}
+
+* {
+    margin: 0;
+    top: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: var(--first-color);
+    height: 117px;
+    width: 100%;
+    margin-top: ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.header-nav a{
+    color: rgba(253, 253, 253, 1);
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 103px;
+    width: 95x;
+    height: 23px;
+    line-height: 22.98px;
+
+}
+
+.header-img img {
+    width: 164px;
+}
+
+
 .generic-session {
     width: 100vw;
 
@@ -201,6 +248,35 @@
     }
 
 }
+
+.footer  {
+    background-color: var(--first-color);
+    height: 207px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+.footer img {
+margin-left: 128px;
+margin-right: 101px;
+margin-top: 53px;
+margin-bottom: 52.57px;
+}
+
+ .footer-nav a {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    size: 20px;
+    line-height: 23px;
+    weight: 400px;
+   
+    margin-right: 10px;
+ }
     
 /* ------- */
 
