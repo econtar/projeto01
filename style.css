@@ -218,7 +218,7 @@ a {
 #card-h {
     width: 100vw;
     height: 100vh;
-
+    background-color: #F6F6F6;
     display: flex;
     justify-content: center;
     align-items: stretch;
@@ -233,20 +233,25 @@ a {
 }
 
 .card-cursos strong {
-    font-size: var(--font-size-small);
-    color: var(--secondary-color);
-
+    font-size: 25px;
+    color: var(--second-color);
     padding-top: 50px;
 }
 
 .card-cursos p {
     width: 65%;
-
+    height: 100px;
+    left: 154px;
+    top: 1305px;
+    font-weight: 300;
     font-size: var(--font-size-xx-small);
     font-weight: 300;
     text-align: center;
-
     padding: 30px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    size: 17px;
+    
+
 }
 
 .card-cursos img {
@@ -254,17 +259,21 @@ a {
 }
 
 .card-cursos button {
-    font-size: var(--font-size-x-small);
-    color: #FFF;
+font-size: var(--font-size-x-small);
+width: 233px;
+height: 51px;
+left: 184px;
+top: 1391px;
+background: var(--second-color);
+border: 1px;
+border-radius: 62px;
+padding: 15px 30px;
+cursor: pointer;
+color: #FFFFFF
 
-    background-color: var(--secondary-color);
-    
-    border: 0;
-    border-radius: 30px;
-    padding: 15px 30px;
-
-    cursor: pointer;
 }
+
+
 
 .card-cursos button:hover {
     color: var(--secondary-color);
@@ -277,9 +286,10 @@ a {
 /* 3ª SESSÃO - O QUE FALAM SOBRE NÓS */
 
 #title-o-que-falam {
-    color: var(--primary-color);
-    font-family: 'Nunito', sans-serif;
-    font-size: var(--font-size-large);
+      
+    color: var(--first-color);
+    font-family: 'Nunito';
+    font-size: 37px;
     font-weight: 700;
 
     position: relative;
@@ -289,29 +299,24 @@ a {
 
 #card-o-que-falam-h {
     width: 100vw;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
     padding-top: 10%;
 }
 
 .card-o-que-falam {
+   
     width: 45%;
-
     display: flex;
     align-items: center;
-
     padding: 20px 20px;
 }
 
 .card-o-que-falam img {
-    width: 50%;
-
+   /* width: 50%;*/
     padding-right: 20px;
-
-    position: relative;
+    
 }
 
 .card-o-que-falam-desc {
@@ -321,17 +326,21 @@ a {
 }
 
 .card-o-que-falam p {
-    color: #000;
+    color:  #000000;
     font-family: 'Nunito', sans-serif;
-    font-size: var(--font-size-x-small);
-    font-weight: 200;
+    font-weight: 300;
+    font-size: 18px;
+    width: 363px;
+    height: 70.27px;
+    left: 260px;
+    top: 1806px;
 }
 
 .card-o-que-falam small {
-    color: #000;
+    color: #000000;
     font-family: 'Nunito', sans-serif;
-    font-size: var(--font-size-x-small);
-    font-weight: bold;
+    font-size:18px;
+    font-weight: 400;
 }
 
 /* ------- */
@@ -339,78 +348,150 @@ a {
 /* 4ª SESSÃO - MAIS CONTEÚDO */
 
 #blog-posts {
-    background-color: var(--background-color);
-
+    background-color:  #E5E5E5;
     position: relative;
+    
 }
 
 #title-blog-posts {
-    color: var(--primary-color);
-    font-family: 'Nunito', sans-serif;
-    font-size: var(--font-size-large);
+    color: var(--first-color);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 37px;
     font-weight: 700;
-
+    line-height:43px;
     position: relative;
-    top: 10%;
-    left: 5%
+
+    top: 91px;
+    left: 128px;
+    height: 73px;
+    width: 530px;
+}
+
+.card-blog-posts .container {
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: space-between;
+
+width: 319px;
+height: 193px;
+margin-left: 128px;
+margin-top: 207px;
+background: #C4C4C4;
+
+
 }
 
 #card-blog-posts-h {
     width: 100vw;
-
     display: flex;
     justify-content: space-evenly;
-
-    padding-top: 8%;
+    align-items: flex-start;
+    align-content: space-between;
+    /*padding-top: 8%;*/
+   
 }
 
 .card-blog-posts {
     display: flex;
+    justify-content: space-between;
+    align-items:center;
+    align-content: space-between;
     flex-direction: column;
-
     padding: 0px 50px;
 }
 
 .card-blog-posts strong {
-    font-size: var(--font-size-small);
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 27px;
     font-weight: 700;
-    color: var(--primary-color);
-
+    color: var(--first-color);
     padding-top: 15px;
 }
-
 .card-blog-posts p {
-    font-size: var(--font-size-x-small);
+    font-size: 18px;
     font-weight: 400;
-    color: #000;
+    color: #000000;
+    line-height: 31.02px;
 }
 
 .button-blog-posts {
     display: flex;
     justify-content: center;
-
     padding-top: 40px;    
 }
 
 .button-blog-posts button {
-    font-size: var(--font-size-x-medium);
+    width: 289px;;
+    height: 51px;
+    font-size: 25px;
     font-weight: 400;
-    color: var(--secondary-color);
-
-    border: 0;
+    size: 25px;
+    color: var(--second-color);
+    background-color: ;
     padding: 8px 30px;
-    
-    border: 1.5px solid var(--secondary-color);
-    border-radius: 30px;
+    border: 2px solid var(--second-color);
+    size-adjust: 10px 10px 41px 41px;
+    border-radius: 62px;
 }
 
 .button-blog-posts button:hover {
 
-    background-color: var(--secondary-back-color);
+    background-color: var(--secondary--color);
     transition: 0.5s;
-    
-    cursor: pointer;
-
+        cursor: pointer;
 }
+
+.footer  {
+    background-color: var(--first-color);
+    height: 207px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+.footer img {
+margin-left: 128px;
+margin-right: 101px;
+margin-top: 53px;
+margin-bottom: 52.57px;
+}
+
+ .footer-nav a {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    size: 20px;
+    line-height: 23px;
+    weight: 400px;
+   
+    margin-right: 10px;
+ }
+
+ /*button {
+    background-color: var(--first-color);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    position: relative;
+
+    
+    
+ }*/
+
+/*.footer {
+background-color: var(--first-color);
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+Width: 1440px;
+Height: 207px;
+}*/
 
 /* ------- */
