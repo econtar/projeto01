@@ -47,12 +47,15 @@
 .curso-invest-posts {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+
+    text-align: justify;
 
     padding: 40px 0;
 }
 
 .curso-invest-posts-text {
-    width: 50%;
+    width: 40%;
 }
 
 .curso-invest-posts-text h2 {
@@ -60,13 +63,17 @@
     font-weight: bold;
 
     color: var(--secondary-color);
+
+    padding: 5px 0;
 }
 
 .curso-invest-posts-text p {
+    width: 100%;
+
     font-size: var(--font-size-xx-small);
     font-weight: light;
 
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 .curso-invest-posts-meio {
@@ -124,8 +131,7 @@
     }
 
     .curso-invest-top-text p {
-        font-size:1.2rem;
-        text-align: center;
+        font-size: 1.2rem;
     }
 
     #curso-invest-top-h img {    
