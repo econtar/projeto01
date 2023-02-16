@@ -10,13 +10,14 @@ footer {
     align-items: center;
 
     padding: 20px 0px;
+    margin-top: 78px;
 }
 
 .footer-img {
     width: auto;
 }
 
-#footer-nav {
+.footer-nav {
     display: flex;
     flex-direction: column;
 }

@@ -1,9 +1,11 @@
 #cursos {
     margin: 0px 80px;
-}
+    
+       }
 
 .cursos-title {
     margin: 50px 0;
+    
 }
 
 #cursos h1 {
@@ -21,6 +23,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .cards-cursos h2 {
@@ -40,13 +43,13 @@
 .cards-cursos-cada {
     display: flex;
     align-items: center;
-
-    padding: 40px 0px;
+    padding: 40px 0px;  
+    
 }
 
 .cards-cursos-cada-meio {
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
+   border-top:5px solid #c4c4c4;
+   border-bottom: 1px  #c4c4c4;
 }
 
 .cards-cursos-cada img {
@@ -56,8 +59,8 @@
 .cards-cursos-desc {
     display: flex;
     flex-direction: column;
-
     padding-left: 60px;
+    
 }
 
 .cards-cursos-desc button {
@@ -80,6 +83,10 @@
     cursor: pointer;
 }
 
+.cards-cursos-cada {
+border-top: 5px solid #C4C4C4;
+
+}
 /* ------- */
 
 /* RESPONSIVO TELAS até 480px */
